@@ -14,7 +14,7 @@ readme = "README.md"
 categories = ["cryptography", "no-std"]
 keywords = ["crypto", "ecc", "nist", "secp224r1"]
 edition = "2024"
-rust-version = "1.85"
+# rust-version = "1.85"
 
 [dependencies]
 elliptic-curve = { version = "0.14.0-rc.16", default-features = false, features = ["sec1"] }

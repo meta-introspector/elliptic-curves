@@ -11,7 +11,7 @@ readme = "README.md"
 categories = ["cryptography", "no-std"]
 keywords = ["brainpool", "crypto", "ecc"]
 edition = "2024"
-rust-version = "1.85"
+# rust-version = "1.85"
 
 [dependencies]
 elliptic-curve = { version = "0.14.0-rc.16", default-features = false, features = ["sec1"] }

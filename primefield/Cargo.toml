@@ -11,7 +11,7 @@ readme = "README.md"
 categories = ["cryptography", "no-std"]
 keywords = ["crypto", "ecc", "field", "prime"]
 edition = "2024"
-rust-version = "1.85"
+# rust-version = "1.85"
 
 [dependencies]
 bigint = { package = "crypto-bigint", version = "0.7.0-rc.10", default-features = false, features = ["hybrid-array"] }
